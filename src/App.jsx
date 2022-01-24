@@ -1,8 +1,16 @@
+import AppNavBar from "./components/AppNavBar";
+import HeroSection from "./components/HeroSection";
+import Features from "./components/Features";
+import Footer from "./components/Footer";
+
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </div>
+    <main className="App">
+      <AppNavBar />
+      <HeroSection />
+      <Features />
+      <Footer />
+    </main>
   );
 }
 
